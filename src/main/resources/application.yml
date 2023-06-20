@@ -1,0 +1,23 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: abhishek1
+    url: jdbc:mysql://localhost:3306/jrtp
+    username: abhishek
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: wyzlfaodtstypygx
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: abhishekgoswami789.ag@gmail.com
